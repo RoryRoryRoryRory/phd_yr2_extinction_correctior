@@ -1,0 +1,3 @@
+This directory contains functions used to perform an internal extinction correction, using the Balmer decrement, for maps of optical emission line fluxes of sub 100pc resolved galaxies. These functions were primarially built for working with flux maps made for galaxies in the GECKOS sample, which have had a 3x3 spatial binning applied. The maps that these functions were tested on were produced using the python package Threadcount, developed by Prof Deanne Fisher.
+
+The file Av_generator.py contains all relevant functions, and the file example.py contains a runthrough of how these functions can be used.
